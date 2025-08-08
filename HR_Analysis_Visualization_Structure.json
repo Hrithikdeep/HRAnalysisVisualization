@@ -1,0 +1,51 @@
+{
+    "project_title": "HR Analysis and Visualization",
+    "objective": "Analyze HR data to understand key factors behind employee attrition, satisfaction, and performance. Visualize insights and build predictive models.",
+    "steps": [
+        {
+            "step": 1,
+            "title": "Import Libraries & Load Dataset",
+            "description": "Import necessary libraries such as pandas, numpy, matplotlib, seaborn, and load the CSV file into a DataFrame."
+        },
+        {
+            "step": 2,
+            "title": "Data Overview",
+            "description": "Use df.head(), df.info(), df.describe(), and df.shape to understand the basic structure of the data."
+        },
+        {
+            "step": 3,
+            "title": "Data Cleaning",
+            "description": "Check for null values, duplicate rows, and fix inconsistent data if any."
+        },
+        {
+            "step": 4,
+            "title": "Exploratory Data Analysis (EDA)",
+            "description": "Visualize key features such as satisfaction level, average monthly hours, and attrition. Use histograms, boxplots, and barplots to uncover patterns."
+        },
+        {
+            "step": 5,
+            "title": "Correlation Analysis",
+            "description": "Plot a heatmap to understand the correlation between numerical variables and attrition."
+        },
+        {
+            "step": 6,
+            "title": "Feature Engineering",
+            "description": "Convert categorical variables like salary and department using label encoding or one-hot encoding."
+        },
+        {
+            "step": 7,
+            "title": "Model Building",
+            "description": "Split data into training and testing sets. Train models like Logistic Regression and Random Forest to predict attrition."
+        },
+        {
+            "step": 8,
+            "title": "Model Evaluation",
+            "description": "Evaluate the model using accuracy, confusion matrix, precision, recall, and classification report."
+        },
+        {
+            "step": 9,
+            "title": "Final Insights",
+            "description": "Summarize key takeaways for HR teams to understand and address employee attrition and satisfaction."
+        }
+    ]
+}
